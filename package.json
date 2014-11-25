@@ -11,5 +11,6 @@
     "dependencies": {
         "sockjs"      : "*"
     },
+    "browser": "mutiplex_client",
     "main": "multiplex_server"
 }
