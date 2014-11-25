@@ -23,6 +23,12 @@ Alternatively, if you're using SSL:
     <script src="https://d1fxtkz8shb9d2.cloudfront.net/websocket-multiplex-0.1.js">
       </script>
 
+Or, if you're using browserify or webpack you can require the client:
+
+```javascript
+    var WebSocketMultiplex = require('websocket-multiplex').MultiplexClient;
+```
+
 Usage example:
 
 ```javascript
