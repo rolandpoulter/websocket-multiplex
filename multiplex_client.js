@@ -82,5 +82,9 @@ var WebSocketMultiplex = (function(){
         setTimeout(function(){that.emit('close', {});},0);
     };
 
+    if (typeof exports === 'object') {
+        exports.MultiplexClient = WebSocketMultiplex;
+    }
+
     return WebSocketMultiplex;
 })();
